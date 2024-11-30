@@ -19,11 +19,11 @@ const Header = () => {
                         />
                     </div>
                     <ul className='flex gap-10 items-center'>
-                        <li><Link className='text-white' href="/equipment">Equipment</Link></li>
-                        <li><Link className='text-white' href="/about-us">About us</Link></li>
-                        <li><Link className='text-white' href="/blog">Blog</Link></li>
+                        <li><Link className='text-white hover:text-[#FBD784] transition-all' href="/equipment">Equipment</Link></li>
+                        <li><Link className='text-white hover:text-[#FBD784] transition-all' href="/about-us">About us</Link></li>
+                        <li><Link className='text-white hover:text-[#FBD784] transition-all' href="/blog">Blog</Link></li>
                     </ul>
-                    <Link className='flex gap-2 text-white text-lg' href='/'>
+                    <Link className='flex gap-2 text-white text-lg hover:text-[#FBD784] transition-all' href='/'>
                         <Image
                             src='/user.svg'
                             alt='user image'
@@ -37,11 +37,10 @@ const Header = () => {
                     <Main />
                 </div>
             </div>
-            <div className='box mb-[218px]'>
+            <div className='box mb-[218px] z-10'>
                 <Section />
                 <SectionTwo />
             </div>
-
             <Cart/> 
         </div>
     );

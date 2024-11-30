@@ -36,7 +36,6 @@ body {
   background: url(../../public/Hero-img.png);
   width: 100%;
   height: 120vh;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -60,4 +59,17 @@ body {
 
 .box {
   position: relative;
+}
+
+.cart1{
+  background: url(../../public/Equipment.png);
+  background-repeat: no-repeat;
+}
+.cart2{
+  background: url(../../public/Equipment\ \(1\).png);
+  background-repeat: no-repeat;
+}
+.cart3{
+  background: url(../../public/Equipment\ \(2\).png);
+  background-repeat: no-repeat;
 }

@@ -4,10 +4,12 @@ import React from 'react'
 
 const Cart = () => {
     return (
-        <div className='bg-[#0B1D26]'>
-            <div className="card w-[1200px] mx-auto flex items-center gap-12 mb-[200px]">
-                <div>
-                    <div className='w-[632px] text-white text-lg'>
+        <div 
+            className='bg-gradient-to-b from-[#3a5f32] via-[#000000] via-[#0B1D26] via-[#0B1D26] via-[#0B1D26] to-[#0B1D26]'
+        >
+            <div className="w-[1300px] mx-auto flex items-center justify-between mb-[200px]">
+                <div className='cart1'>
+                    <div className='pt-20 pl-36 w-[732px] text-white text-lg'>
                         <div className='mb-8 w-[268px] text-[#FBD784] text-lg flex gap-8 items-baseline'>
                             <div className='h-0.5 w-[72px] bg-[#FBD784]'></div>
                             <h5>GEt Started</h5>
@@ -35,7 +37,7 @@ const Cart = () => {
                 />
             </div>
 
-            <div className="card w-[1200px] mx-auto flex items-center gap-12 mb-[200px]">
+            <div className="w-[1300px] mx-auto flex items-center gap-12 mb-[200px]">
                 <Image
                     className='object-cover'
                     src='/man.png'
@@ -44,8 +46,8 @@ const Cart = () => {
                     height={720}
                 />
 
-                <div>
-                    <div className='w-[632px] text-white text-lg'>
+                <div className='cart2'>
+                    <div className='pt-20 pl-36 w-[732px] text-white text-lg'>
                         <div className='mb-8 w-[354px] text-[#FBD784] text-lg flex gap-8 items-baseline'>
                             <div className='h-0.5 w-[72px] bg-[#FBD784]'></div>
                             <h5>GEt Started</h5>
@@ -68,9 +70,9 @@ const Cart = () => {
                 </div>
             </div>
 
-            <div className="card w-[1200px] mx-auto flex items-center gap-12 mb-[200px]">
-                <div>
-                    <div className='w-[632px] text-white text-lg'>
+            <div className="w-[1300px] mx-auto flex items-center gap-12 mb-[200px]">
+                <div className='cart3'>
+                    <div className='pt-20 pl-36 w-[732px] text-white text-lg'>
                         <div className='mb-8 w-[358px] text-[#FBD784] text-lg flex gap-8 items-baseline'>
                             <div className='h-0.5 w-[72px] bg-[#FBD784]'></div>
                             <h5>Where you go is the key</h5>

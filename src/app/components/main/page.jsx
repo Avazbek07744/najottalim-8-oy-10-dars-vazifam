@@ -13,7 +13,7 @@ const Main = () => {
             <Link href="/" className='flex gap-3 items-center text-white'>
                 scroll down
                 <Image
-                    src='/images/down.svg'
+                    src='/down.svg'
                     alt='arrow down'
                     width={14}
                     height={24}

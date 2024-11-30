@@ -12,7 +12,7 @@ const Header = () => {
                 <nav className='w-[1260px] mx-auto flex justify-between mb-[198px]'>
                     <div className="logo">
                         <Image
-                            src='/images/Logo.svg'
+                            src='/Logo.svg'
                             alt='logo image'
                             width={108}
                             height={24}
@@ -25,7 +25,7 @@ const Header = () => {
                     </ul>
                     <Link className='flex gap-2 text-white text-lg' href='/'>
                         <Image
-                            src='/images/user.svg'
+                            src='/user.svg'
                             alt='user image'
                             width={24}
                             height={24}
